@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    background-color: bisque;
+    width: 900px;
+    height: 196px;
+    margin: 30px;
+    padding: 40px;
+    border: 10px solid black;
+    /* box-sizing: content-box;  (by default yei nai hune rahexa)  */  
+
+
+    /* now we calculate for entire css box from border including content,padding and border  */
+    box-sizing: border-box;
+}
+.box2 {
+    background-color: aquamarine;
+    margin: 34px;
+    height: 140px;
+    width: 60%;
+    
+}
